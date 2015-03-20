@@ -162,6 +162,12 @@ While we anticipated the upset tone of the lyrics and vocals to dominate for lis
 Similar to the "Unclear Classification" example above, this data exemplifies the subjectivity of music in that different people perceive different things when listening to the same music. Furthermore, its wide distribution of "votes" across the four Emojis also point to the multidimensionality of music in that music can represent multiple themes concurrently.</p>
 
 <h2>
+<a id="building-a-nearest-neighbor-classifier" class="anchor" href="#building-a-nearest-neighbor-classifier" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Building a Nearest Neighbor Classifier</strong>
+</h2>
+
+<p>After organizing the data, the next step was to create a system similar to a nearest neighbor classifier. Using C++, we created a program that will take in the Mechanical Turk Results from a text file, then take in "test inputs" from a text file. It then compares each test song with each song from the Mechanical Turk Data in order to calculate which song is the closest. In the end, when a new song needed to be classified, this system would have told us which song, that was already classified, it was closest to.  </p>
+
+<h2>
 <a id="suggested-songs" class="anchor" href="#suggested-songs" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Suggested Songs</strong>
 </h2>
 
